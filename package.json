@@ -1,0 +1,44 @@
+{
+  "name": "dsh-agent-trust",
+  "version": "1.0.0",
+  "description": "Six DSH skills for building trust in coding agents: runtime verification, feature maps, evidence-first debugging, skill evals, and agent-ready architecture.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "index.js",
+    "lib",
+    "skills",
+    "locale/*.json",
+    "docs",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "skills",
+    "agent",
+    "verification",
+    "coding-agent"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "test": "node --test test/skills.test.mjs"
+  },
+  "license": "MIT"
+}

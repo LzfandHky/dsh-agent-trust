@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Agent trust kit",
+    "description": "Six skills for deciding how far to trust a coding agent: run the real app to verify changes, map features in user terms, require file evidence before naming a root cause, eval skills under blind conditions, and structure a codebase so the shortest path is the correct one.",
+    "detail": "docs/DETAIL.md"
+  }
+}

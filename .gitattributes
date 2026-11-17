@@ -1,0 +1,8 @@
+# 统一用 LF：技能文件的 frontmatter 用 ^--- 锚定，混入 CRLF 会让解析在不同平台表现不一致。
+* text=auto eol=lf
+*.svg text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
